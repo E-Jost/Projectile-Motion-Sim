@@ -11,12 +11,6 @@ L - launches the ball
 R - resets the ball back to original position
 */
 import * as THREE from 'https://cdn.skypack.dev/three@0.132.2/build/three.module.js';
-/*
-Because three.js is external lib firefox wouldnt let me run locally
-so I had to use VS codes live server extension to run this program.
-This might make it so you cant run it without configuring your machine
-so it might be best to meet.
-*/
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true});
 document.body.appendChild(renderer.domElement);
